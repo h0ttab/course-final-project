@@ -31,8 +31,8 @@
     width: calc(100% / 3);
     align-items: center;
     font-size: 1.3rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
+/*     padding-top: 10px;
+    padding-bottom: 10px; */
 }
 
 .header-btn:hover {
