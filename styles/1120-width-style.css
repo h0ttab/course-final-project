@@ -1,0 +1,45 @@
+@media (max-width: 1120px) {
+
+    .header-buttons {
+        padding-left: 0;
+    }
+
+    .header-btn p {
+        font-size: 18px;
+    }
+
+    .header-btn:hover p {
+        font-size: 20px;
+    }
+    
+    .about p {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 1050px) {
+   
+    .header-btn {
+        font-size: 1.2rem;
+    }
+
+    .header-btn:last-child {
+        width: 30%;
+    }
+
+    .header-btn:nth-child(2) {
+        width: 20%;
+        margin: 0 70px 0;
+    }
+
+    .header-btn:hover {
+        font-size: 1.3rem;
+    }
+
+    .header h1 {
+        margin: auto 30px auto;
+    }
+}

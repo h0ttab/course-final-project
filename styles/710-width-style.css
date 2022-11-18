@@ -1,0 +1,140 @@
+@media (max-width: 710px) {
+
+.main {
+    position: absolute;
+    top: 124px;
+}
+
+.header {
+    flex-direction: column;
+    height: fit-content;
+}
+
+.header h1, .header span {
+    justify-content: center;
+}
+
+.header h1 {
+    margin: 10px auto 0 auto;
+    margin-bottom: 10px;
+}
+
+.header-buttons {
+    justify-content: center;
+    border-top: 1px solid rgb(150, 150, 150);
+    height: 70px;
+    width: 100%;
+    padding-left: 0;
+}
+
+.header-btn:last-child, .header-btn:nth-child(2), .header-btn {
+    width: calc(100% / 3);
+    align-items: center;
+    font-size: 1.3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-btn:hover {
+    text-shadow: 0 0 20px white;
+    cursor: pointer;
+    font-size: 1.35rem;
+    padding-top: 12px;
+}
+
+.header-btn:last-child:hover {
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+.header-btn:nth-child(2) {
+    border-left: 1px solid rgb(150, 150, 150);
+    border-right: 1px solid rgb(150, 150, 150);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#skills-header {
+    width: 85%;
+    height: 100px;
+    text-align: center;
+}
+
+
+}
+
+@media (min-width: 524px) and (max-width: 710px) {
+ 
+.header-btn:last-child p {
+    width: 150px;
+} 
+
+.header-btn:last-child {
+    padding: 0 10px 0;
+}
+
+#box-1 img {
+    height: 280px;
+    width: 210px;
+}
+
+#box-1 {
+    flex-direction: column;
+    align-items: center;
+}
+
+#hidden {
+    font-size: 24px;
+    width: 65%;
+}
+
+.about h2 {
+    font-size: 0;
+    margin: 0;
+}
+
+.vladilen-links img {
+    width: 200px;
+    height: 90px;
+}
+
+}
+
+@media (min-width: 524px) and (max-width: 710px) {
+    #hidden {
+        font-size: 27px;
+        width: 70%;
+        margin-left: 50px;
+    }
+
+    .about p {
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 524px) and (max-width: 900px) {
+
+    .about p {
+        font-size: 25px;
+    }
+
+}
+
+@media (min-width: 524px) and (max-width: 602px) {
+    
+    #hidden {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+}
+
+@media (min-width: 450px) and (max-width: 524px) {
+    
+    .vladilen-links img {
+        width: 200px;
+        height: 70px;
+    }
+
+}
