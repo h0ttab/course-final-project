@@ -1,0 +1,100 @@
+@media (max-width: 450px) {
+
+    .main {
+        position: absolute;
+        top: 120px;
+    }
+
+    .header {
+        position: fixed;
+    }
+
+    .header-buttons {
+        width: 100%;
+    }
+
+    .header-btn:nth-child(2), .header-btn, .header-btn:last-child {
+        font-size: 1.15rem;
+    }
+
+    .header-btn:last-child {
+        width: 40%;
+        padding: 0 2px 0;
+    }
+
+    .header-btn:hover {
+        font-size: 1.25rem;
+    }
+    
+    .header-btn:last-child:hover {
+        font-size: 1.2rem;
+    }
+
+    .header-btn:first-child {
+        width: 33%;
+    }
+
+    .header-btn:first-child:hover {
+        padding-top: 10px;
+    }
+
+    .header-btn:nth-child(2) {
+        width: 27%;
+        padding: 0 20px 0;
+    }
+
+    .header-btn:nth-child(2):hover {
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .header-btn:last-child p {
+        padding: 0 5px 0;
+    }
+
+    .header-btn:last-child:hover {
+        padding: 0;
+    }
+
+    #box-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #box-1 img {
+        width: 195px;
+        height: 260px;
+    }
+
+    .vladilen-links img {
+        width: 200px;
+        height: 60px;
+    }
+
+    .about h2 {
+        font-size: 0;
+        margin: 0;
+    }
+
+    #hidden {
+        font-size: 21px;
+        width: 90%;
+        text-align: justify;
+    }
+
+    #skills-header {
+        width: 85%;
+        height: 100px;
+        text-align: center;
+    }    
+
+    #box-3 th {
+        padding: 0 5px 10px;
+        font-size: 13px;
+    }
+
+    #box-3 td {
+        padding: 5px 10px 5px;
+    }
+
+}
