@@ -77,4 +77,17 @@
         height: 400px;
     }
 
+    .table {
+        width: 85%;
+        height: 50%;
+        justify-content: center;
+    }
+
+    #box-3 th {
+        padding: 0 5px 10px
+    }
+
+    #box-3 td {
+        padding: 10px 15px 10px;
+    }
 }

@@ -2,7 +2,7 @@
 
     .main {
         position: absolute;
-        top: 124px;
+        top: 120px;
     }
 
     .header {
@@ -87,5 +87,14 @@
         height: 100px;
         text-align: center;
     }    
+
+    #box-3 th {
+        padding: 0 5px 10px;
+        font-size: 13px;
+    }
+
+    #box-3 td {
+        padding: 5px 10px 5px;
+    }
 
 }
