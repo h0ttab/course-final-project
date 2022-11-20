@@ -2,7 +2,7 @@
 
     .main {
         position: absolute;
-        top: 83px;
+        top: 104px;
     }
 
     .header {
@@ -22,12 +22,10 @@
 
     .header-buttons {
         width: 100%;
-        height: fit-content;
     }
 
     .header-btn:nth-child(2), .header-btn, .header-btn:last-child {
         font-size: 1.15rem;
-        height: fit-content;
     }
 
     .header-btn:last-child {
