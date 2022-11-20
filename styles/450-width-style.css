@@ -6,7 +6,8 @@
     }
 
     .header {
-        position: fixed;
+        position: sticky;
+        position: -webkit-sticky;
     }
 
     .header-buttons {
