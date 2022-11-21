@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Open Sans;
+    font-family: "Open Sans";
     src: url(fonts/OpenSans-Regular.ttf);
 }
 
@@ -17,10 +17,28 @@
     }
 }
 
+@keyframes anim-text {
+    0% {
+        color: white;
+    }
+    50% { color: rgb(0, 0, 0);
+        letter-spacing: 3px;
+    }
+    100% {
+        color: white;
+    }
+}
+
+@keyframes propeller {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 body {
     margin: 0;
     box-sizing: border-box;
-    font-family: Open Sans, sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .header {
@@ -36,6 +54,16 @@ body {
 .main {
     position: absolute;
     top: 60px;
+}
+
+.content-box h2 {
+    text-align: center;
+}
+
+#skills {
+    width: 80%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.76);
 }
 
 #underscore {
@@ -220,8 +248,29 @@ body {
     align-items: center;
 }
 
+.lists-container {
+    display: flex;
+}
+
+#box-4 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-5 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #box-3 h2 {
     text-align: center;
+}
+
+#box-4 h2 {
+    text-align: center;
+    display: flex;
 }
 
 .table {
@@ -232,7 +281,78 @@ body {
     border-collapse: collapse;
 }
 
+.table tr:first-child {
+    background-color: #ddd;
+}
+
+.table tr:nth-child(1n+2) td:first-child {
+    background-color: #ddd;
+    width: 30%;
+}
+
 #box-3 td {
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     padding: 2% 0 2%;
 }
+
+#box-4.lists ul, #box-4.lists ol {
+    display: flex;
+}
+
+.texts {
+    width: 85%;
+}
+
+.font {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#anim-text {
+    height: 60px;
+    width: 250px;
+}
+
+#texts-header {
+    margin-bottom: 70px;
+}
+
+.lists-header {
+   margin-top: 65px;
+   margin-bottom: 65px;
+}
+
+#box-4 {
+    justify-content: start;
+}
+
+#box-5 {
+    justify-content: start;
+}
+
+#box-5 h2 {
+    margin-top: 50px;
+}
+
+#box-6, #box-6 ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#anim-text {
+    font-family: 'Times New Roman', Times, serif;
+    animation: anim-text 4s infinite;
+}
+
+.propeller {
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+}
+
+.propeller:hover {
+    animation: propeller 0.5s linear infinite;
+}
+
+/* --------- Footer (Contact Form) ---------- */
+

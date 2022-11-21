@@ -50,6 +50,11 @@
     padding: 0;
 }
 
+.lists-container {
+    flex-wrap: wrap;
+    margin: 0;
+}
+
 }
 
 @media (max-width: 1000px) {

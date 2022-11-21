@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="header-btn">
-                    <a href="#result-school"><p>Мои навыки</p></a>
+                    <a href="#skills"><p>Мои навыки</p></a>
                 </div>
 
                 <div class="header-btn">
@@ -70,16 +70,18 @@
 
                 </div>
             </div>
-
+            <div id="skills"></div>
             <h2 id="skills-header">Что я умею? Сейчас покажу!</h2>
 
             <div class="content-box" id="box-3">
                     <h2>Например, умею оформлять таблицы</h2>
                     <table class="table">
-                        <th>Навык</th>
-                        <th>Полезность</th>
-                        <th>Хочу изучить</th>
-                        <th>Буду изучать</th>
+                        <tr>
+                            <td>Навык</td>
+                            <td>Полезность</td>
+                            <td>Хочу изучить</td>
+                            <td>Буду изучать</td>
+                        </tr>
                         <tr>
                             <td>JavaScript</td>
                             <td>5/5</td>
@@ -108,17 +110,56 @@
             </div>
 
             <div class="content-box" id="box-4">
-                    
+                <h2 class="lists-header">Разные виды списков</h2>
+                <div class="lists">
+                    <div class="lists-container">
+                        <ul>
+                            <li>Это</li>
+                            <li>Пример</li>
+                            <li>Ненумерованного</li>
+                            <li>Списка</li>
+                        </ul>
+                        <ol>
+                            <li>Данный</li>
+                            <li>Вид</li>
+                            <li>Списков</li>
+                            <li>Называется</li>
+                            <li>"Нумерованный"</li>
+                        </ol>
+                        <ul id="nested-list">
+                            <li>А этот называется
+                                <ol>
+                                    <li>Вложенным</li>
+                                    <li>Списком</li>
+                                </ol>
+                            </li>
+                            <li>Или</li>
+                            <li>Многоуровневым</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
-            <div class="content-box">
-                    
+            <div class="content-box" id="box-5">
+                <h2 id="texts-header">Ещё я умею задавать стили для текста</h2>
+                  <p class="texts">На примере этого текста я покажу различные приёмы стилизации текста.
+                    У текста можно <span style="color: yellow;">поменять цвет</span>
+                    или изменить <span style="font-size: 1.2em;">размер шрифта</span>. Для акцентирования внимания
+                    на каком-либо участке текста его можно выделить <b>вот так</b>, или <i>вот так</i>. А ещё можно 
+                    писать каким-нибудь <span class="font">другим шрифтом</span>. 
+                    Также, стилизация текста включает в себя возможность <span style="text-decoration: underline;">подчеркнуть текст</span>
+                    или <span style="text-decoration: line-through;">зачеркнуть его</span>.
+                  </p>  
             </div>
 
-            <div class="content-box">
-                    
+            <div class="content-box" id="box-6">
+               <h2>Ну и ещё немножечко прикольных штук</h2>
+               <ul style="list-style: none;">
+                    <li><p><b>Тег &#60;Marquee&#62;:</b><marquee>Вот такую бегущую строку можно сделать при помощи этого тега</marquee></p></li>
+                    <li><p><b>Текст с анимацией:</b></p><p id="anim-text">Текст с анимацией смены цвета и стиля</p></li>
+                    <li><b>Наведи курсор на пропеллер и полетели!</b><br><img class="propeller" src="images/propeller.png" alt="Пропеллер"></li>
+                </ul>     
             </div>
-
         </section>
    </div> 
 </body>

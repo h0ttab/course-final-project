@@ -45,7 +45,9 @@
         padding-left: 50px;
     }
 
-
+    #skills {
+        width: 85%;
+    }
 /* ----------Main content section---------- */
 
     .about {
