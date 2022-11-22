@@ -92,4 +92,8 @@
     #box-3 td {
         padding: 10px 15px 10px;
     }
+    
+    .contact-form {
+        width: 85%;
+    }
 }

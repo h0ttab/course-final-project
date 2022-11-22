@@ -354,5 +354,92 @@ body {
     animation: propeller 0.5s linear infinite;
 }
 
-/* --------- Footer (Contact Form) ---------- */
+/* ---------Contact Form----------- */
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.contact-form h2 {
+    display: flex;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.form-group input::placeholder, textarea::placeholder {
+    font-size: 12px;
+    font-family: inherit;
+    color: gray;
+    position: relative;
+    left: -2px;
+    transition: color 0.5s;
+}
+
+.form-group input, .form-group textarea {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #777777;
+    background-color: rgb(194, 194, 194);
+    font-family: inherit;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input:focus::placeholder, textarea:focus::placeholder {
+    color: transparent;
+}
+
+.form-group input:focus, textarea:focus {
+    padding-left: 0;
+}
+
+.form-row {
+    width: 200px;
+}
+
+.form-group textarea, .form-group input {
+    width: 300px;
+}
+
+.submit-button {
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: 600;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+    cursor: pointer;
+    transition: background-color 0.5s;
+    padding: 5px 14px;
+    width: 300px;
+}
+
+.submit-button:hover {
+    background-color: rgb(221, 221, 221);
+    color: black;
+    scale: 98%;
+}
+
+.submit-button:active {
+    scale: 90%;
+}
